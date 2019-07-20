@@ -1,0 +1,178 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="header">
+
+        <item name="android:text">@string/title</item>
+        <item name="android:textColor">@color/colorPrimaryTextLight</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingLeft">@dimen/standard20</item>
+        <item name="android:paddingTop">@dimen/standardhalf</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="subtitle">
+
+        <item name="android:text">@string/subtitle</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingLeft">@dimen/standard20</item>
+        <item name="android:textSize">@dimen/standard20</item>
+        <item name="android:layout_below">@id/title</item>
+    </style>
+
+    <style name="flower">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">@dimen/standard20</item>
+        <item name="android:layout_marginRight">@dimen/standard40</item>
+        <item name="android:layout_marginEnd">@dimen/standard40</item>
+        <item name="android:drawableLeft">@drawable/ic_flower</item>
+        <item name="android:drawableStart">@drawable/ic_flower</item>
+    </style>
+
+    <style name="scoreboard">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/standard20</item>
+        <item name="android:layout_marginLeft">@dimen/standardhalf</item>
+        <item name="android:layout_marginRight">@dimen/standardhalf</item>
+        <item name="android:layout_marginTop">-20dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@drawable/check_answers</item>
+    </style>
+
+    <style name="yourscore">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:text">@string/yourscore</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="score">
+        <item name="android:layout_width">@dimen/standard40</item>
+        <item name="android:layout_height">@dimen/standard40</item>
+        <item name="android:layout_marginLeft">@dimen/standardhalf</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">@dimen/centernumbers</item>
+        <item name="android:textSize">@dimen/standard20text</item>
+        <item name="android:background">@drawable/score_box</item>
+    </style>
+
+    <style name="numbers">
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingLeft">@dimen/centernumbers</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginRight">@dimen/standardhalf</item>
+        <item name="android:layout_width">@dimen/standard40</item>
+        <item name="android:layout_height">@dimen/standard40</item>
+    </style>
+
+    <style name="submit">
+        <item name="android:text">@string/checkanswers</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">@dimen/standardhalf</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">@dimen/standard40</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="question">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/standard20</item>
+        <item name="android:paddingTop">@dimen/standard20</item>
+    </style>
+
+    <style name="qustiontext">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/standard20text</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="answers">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:paddingLeft">75dp</item>
+
+    </style>
+
+    <style name="radiogrouplayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/standard20</item>
+        <item name="android:paddingRight">@dimen/standardhalf</item>
+    </style>
+
+    <style name="radiogroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">@dimen/standard20</item>
+        <item name="android:layout_marginRight">@dimen/standard20</item>
+        <item name="android:background">@color/colorDivider</item>
+    </style>
+
+    <style name="q5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/favflower</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:padding">@dimen/standard20</item>
+        <item name="android:layout_marginLeft">@dimen/standard20</item>
+        <item name="android:layout_marginRight">@dimen/standard20</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="options">
+        <item name="android:textSize">@dimen/standard20text</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <item name="colorControlNormal">@color/colorDivider</item>
+        <item name="colorControlActivated">@color/colorDivider</item>
+        <item name="android:colorControlHighlight">@color/colorDivider</item>
+    </style>
+
+</resources>

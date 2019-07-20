@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">QuizApp Project</string>
+    <string name="title">Floralology</string>
+    <string name="subtitle">A quiz about flowers</string>
+    <string name="yourscore">Your Score</string>
+    <string name="checkanswers">Check\nAnswers</string>
+    <string name="zero">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+
+    /* question 1 */
+    <string name="q1">What are parts of a flower?\n Select all that apply.</string>
+    <string name="pic1ans1">Petal</string>
+    <string name="pic1ans2">Stamen</string>
+    <string name="pic1ans3">Flotsum</string>
+    <string name="flower1">Flower image 1</string>
+
+    /* question 2 */
+    <string name="q2">What is this flower?</string>
+    <string name="pic2ans1">Sunflower</string>
+    <string name="pic2ans2">Anemone</string>
+    <string name="pic2ans3">Honeysuckle</string>
+    <string name="flower2">Flower image 2</string>
+
+    /* question 3 */
+    <string name="pic3ans1">Hosta</string>
+    <string name="pic3ans2">Calendula</string>
+    <string name="pic3ans3">Tulip</string>
+    <string name="flower3">Flower image 3</string>
+
+    /* question 4 */
+    <string name="q4">True or False?\nSome plants don\'t need soil.</string>
+    <string name="pic4ans1">True</string>
+    <string name="pic4ans2">False</string>
+    <string name="flower4">Flower image 4</string>
+
+    /* question 5 */
+    <string name="q5">What is your favorite flower?</string>
+    <string name="favflower">Daisy, Vinca, etc.</string>
+    <string name="flower5">Flower image 5</string>
+</resources>

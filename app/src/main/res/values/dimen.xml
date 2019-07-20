@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="standardhalf">10dp</dimen>
+    <dimen name="standard20">20dp</dimen>
+    <dimen name="standard20text">20sp</dimen>
+    <dimen name="standard40">40dp</dimen>
+    <dimen name="centernumbers">12dp</dimen>
+</resources>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/header" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                style="@style/subtitle" />
+
+            <TextView
+                style="@style/flower" />
+
+        </RelativeLayout>
+
+        <LinearLayout style="@style/scoreboard">
+
+            <TextView
+                style="@style/yourscore"/>
+
+            <TextView
+                android:id="@+id/scoreNum"
+                style="@style/score"
+                android:text="@string/zero" />
+
+            <TextView
+                style="@style/submit"
+                android:onClick="submitAnswers" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/numbers"
+                android:text="@string/num1" />
+
+            <TextView
+                style="@style/qustiontext"
+                android:text="@string/q1" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/answers">
+
+            <ImageView
+                style="@style/image"
+                android:contentDescription="@string/flower1"
+                android:src="@drawable/flowerparts" />
+
+            <LinearLayout style="@style/radiogrouplayout">
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    style="@style/options"
+                    android:text="@string/pic1ans1" />
+
+                <CheckBox
+                    android:id="@+id/checkbox2"
+                    style="@style/options"
+                    android:text="@string/pic1ans2" />
+
+                <CheckBox
+                    android:id="@+id/checkbox3"
+                    style="@style/options"
+                    android:text="@string/pic1ans3" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View style="@style/divider" />
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/numbers"
+                android:text="@string/num2" />
+
+            <TextView
+                style="@style/qustiontext"
+                android:text="@string/q2" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/answers">
+
+            <ImageView
+                style="@style/image"
+                android:contentDescription="@string/flower2"
+                android:src="@drawable/sunflower" />
+
+            <LinearLayout style="@style/radiogrouplayout">
+
+                <RadioGroup
+                    android:id="@+id/group_2"
+                    style="@style/radiogroup">
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic2ans1" />
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic2ans2" />
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic2ans3" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <View style="@style/divider" />
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/numbers"
+                android:text="@string/num3" />
+
+            <TextView
+                style="@style/qustiontext"
+                android:text="@string/q2" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/answers">
+
+
+            <ImageView
+                style="@style/image"
+                android:contentDescription="@string/flower3"
+                android:src="@drawable/tulip" />
+
+            <LinearLayout style="@style/radiogrouplayout">
+
+                <RadioGroup
+                    android:id="@+id/group_3"
+                    style="@style/radiogroup">
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic3ans1" />
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic3ans2" />
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic3ans3" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View style="@style/divider" />
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/numbers"
+                android:text="@string/num4" />
+
+            <TextView
+                style="@style/qustiontext"
+                android:text="@string/q4" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/answers">
+
+            <ImageView
+                style="@style/image"
+                android:contentDescription="@string/flower4"
+                android:src="@drawable/orchid" />
+
+            <LinearLayout style="@style/radiogrouplayout">
+
+                <RadioGroup
+                    android:id="@+id/group_4"
+                    style="@style/radiogroup">
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic4ans1" />
+
+                    <RadioButton
+                        style="@style/options"
+                        android:text="@string/pic4ans2" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/divider" />
+
+        <LinearLayout style="@style/question">
+
+            <TextView
+                style="@style/numbers"
+                android:text="@string/num5" />
+
+            <TextView
+                style="@style/qustiontext"
+                android:text="@string/q5" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/group_5"
+            android:hint="@string/favflower"
+            android:theme="@style/EditTextTheme"
+            style="@style/q5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</ScrollView>
