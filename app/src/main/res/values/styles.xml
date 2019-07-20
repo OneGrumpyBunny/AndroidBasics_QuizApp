@@ -172,7 +172,6 @@
     <style name="EditTextTheme">
         <item name="colorControlNormal">@color/colorDivider</item>
         <item name="colorControlActivated">@color/colorDivider</item>
-        <item name="android:colorControlHighlight">@color/colorDivider</item>
     </style>
 
 </resources>
