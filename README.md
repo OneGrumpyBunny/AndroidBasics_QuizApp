@@ -1,5 +1,5 @@
 # AndroidBasics_QuizApp
-Project Submission for AndroidBasis Nanodegree
+Project Submission for Android Basics Nanodegree
 
 Quiz App
 
